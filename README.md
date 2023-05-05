@@ -1,4 +1,4 @@
-# 给 Zotero 用的 kubikat 小工具（Windows）
+# 给 Zotero 用的 kubikat 小工具
 似乎 kubikat 官网给的 ris 需要配合他们的 filter 用 Endnote 打开才能保证显示质量，直接导入 zotero 会有各种问题。
 
 然而，那个 filter 质量实在不敢恭维，观察到有些地方存在信息的丢失。而且同时使用 Zotero 和 Endnote 总让人心里不爽……
