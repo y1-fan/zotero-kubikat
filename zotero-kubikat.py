@@ -8,6 +8,7 @@ f.close()
 
 text = text.replace('<<','')
 text = text.replace('>>','')
+text = re.sub('TI  - (.+)\nTI  - (.+)','TI  - \g<1>\n: \g<2>',text)
 
 f = open(str,"w",encoding = 'UTF-8')
 f.write(text)
