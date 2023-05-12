@@ -11,10 +11,18 @@ text = text.replace('>>','')
 text = re.sub('TI  - (.+)\nTI  - (.+)','TI  - \g<1>\n: \g<2>',text)
 text = text.replace('QS','CN')
 text = re.sub('TT  - (.+)\nTT  - (.+)','N1  - Translated Title: \g<1> : \g<2>',text)
-text = re.sub('AV  - (.+)\nAV  - (.+)','AV  - \g<1>\n; \g<2>',text)
-text = re.sub('AV  - (.+)\nAV  - (.+)\nAV  - (.+)','AV  - \g<1>\n; \g<2>\n; \g<3>',text)
+
 text = re.sub('AV  - (.+)\nAV  - (.+)\nAV  - (.+)\nAV  - (.+)','AV  - \g<1>\n; \g<2>\n; \g<3>\n; \g<4>',text)
-text = re.sub('TY  - JOUR\n((.+\n)+)CY  - (.+)','TY  - CHAP\n\g<1>CY  - \g<3>',text)
+text = re.sub('AV  - (.+)\nAV  - (.+)\nAV  - (.+)','AV  - \g<1>\n; \g<2>\n; \g<3>',text)
+text = re.sub('AV  - (.+)\nAV  - (.+)','AV  - \g<1>\n; \g<2>',text)
+
+text = re.sub('TY  - JOUR\n((.+\n)+)CN  - (.+)\((.+)','TY  - CHAP\n\g<1>CN  - \g<3>(\g<4>',text)
+
+text = re.sub('PB  - (.+)\nPB  - (.+)\nPB  - (.+)\nPB  - (.+)','PB  - \g<1>\n; \g<2>\n; \g<3>\n; \g<4>',text)
+text = re.sub('PB  - (.+)\nPB  - (.+)\nPB  - (.+)','PB  - \g<1>\n; \g<2>\n; \g<3>',text)
+text = re.sub('PB  - (.+)\nPB  - (.+)','PB  - \g<1>\n; \g<2>',text)
+
+text = text.replace('UR','L2')
 
 f = open(str,"w",encoding = 'UTF-8')
 f.write(text)
