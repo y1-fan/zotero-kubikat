@@ -166,10 +166,9 @@ class MainWindow(QMainWindow):
         
         folder_path = QFileDialog.getExistingDirectory(self, '选择文件夹', '/')
         
-        folder_path = folder_path + '/'
-        
         for file in os.listdir(folder_path):
-            if re.match('.\.ris', file):
+            file = os.path.join(folder_path, file)
+            if re.match('.+\.ris', file):
                 if file not in self.paths_dictionary:
                     tmp_path = os.path.join(folder_path, file)
                     self.paths_list.addItem(tmp_path)
