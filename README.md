@@ -7,8 +7,8 @@
 1. 引入了登录机制，并且不存在注册选项。依 Zentralinstitut für Kunstgeschichte 提供的[说明](https://www.zikg.eu/bibliothek/benutzung-und-service/bibliotheksausweis)，应该必须线下办理图书馆卡才能登录 kubikat。目前，如果要选择某一搜索结果的所有条目进行导出，就必须进行登录，否则只能按页导出（每页最多显示 50 条）。
 2. 当前的导出的格式全部都存在重大的问题：
    1. 用 EXCEL/CSV 进行导出能够获得最丰富的信息，但是参考文献类型全面缺失，无法进行有效的文献管理。
-   2. RIS 勉强算是保留了文献类型，但是信息缺失及其严重，很多文献只剩下了标题、作者和年份。
-   3. EndNote 导出选项与之前的导出一致，但是添加了在 Clarivate 云端的 EndNote 上进行编辑的步骤。
+   2. RIS 勉强算是保留了文献类型，但是信息缺失极其严重，很多文献只剩下了标题、作者和年份。
+   3. EndNote 导出选项与之前的导出一致，但是添加了在 Clarivate 云端的 EndNote 上进行导入再导出的步骤。
    4. BibTeX 最为混乱，不仅文献类型错误严重，保留了原方法中的乱码，而且还缺失信息。
 
 我已就一些问题向 kubikat 方面的人进行了咨询。依据 Zentralinstitut für Kunstgeschichte 网站上有关这次更新的[文章](https://www.zikg.eu/aktuelles/nachrichten/go-live-des-neuen-kubikat-katalogs)的说法：
