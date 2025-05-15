@@ -10,6 +10,7 @@
    2. RIS 勉强算是保留了文献类型，但是信息缺失极其严重，很多文献只剩下了标题、作者和年份。
    3. EndNote 导出选项与之前的导出一致，但是添加了在 Clarivate 云端的 EndNote 上进行导入再导出的步骤。
    4. BibTeX 最为混乱，不仅文献类型错误严重，保留了原方法中的乱码，而且还缺失信息。
+3. （2025/5/15 补充）依据现有导出格式的情况，本仓库提供的内容适用于以下工作流：选择 EndNote 导出，此时页面会跳转至 Clarivate 的在线 EndNote 网页，这需要登录您的 Clarivate 账户。成功登录后，页面会跳转至“导入参考文献”并显示导入结果。点击“我的参考文献”标签，会看到您的所有参考文献。您需要将它们正确地分组，然后点击“格式化”标签下的“导出参考文献”，选择你需要导出的参考文献的组别，并选择导出样式为 RefMan (RIS) Export，然后点击“保存”，您就能获得原工作流中 kubikat 直接提供的 RIS 文件了。
 
 我已就一些问题向 kubikat 方面的人进行了咨询。依据 Zentralinstitut für Kunstgeschichte 网站上有关这次更新的[文章](https://www.zikg.eu/aktuelles/nachrichten/go-live-des-neuen-kubikat-katalogs)的说法：
 
