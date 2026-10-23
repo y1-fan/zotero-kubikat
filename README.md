@@ -1,5 +1,9 @@
 # 给 Zotero 用的 kubikat 小工具
 
+### 2026/10/23
+
+此仓库将存档。请移步 [Re-Kubikatia](https://github.com/y1-fan/Re-Kubikatia)。对于旧版网站，该仓库内容依然可用。
+
 ### 2025/7/10
 
 自新版 kubikat 上线以来，由于诸多问题的存在，似乎多数人心照不宣地使用旧版 [kubikat](https://aleph.mpg.de/F?func=file&file_name=find-b&local_base=kub01)，那个时候旧版还可以使用。不过今天发现旧版已经不允许使用，而是请访问者使用新版 kubikat。查 Internet Archive 的时光机可知，至少 [2025/6/20 旧版 kubikat](https://web.archive.org/web/20250620131854/https://aleph.mpg.de/F?func=file&file_name=find-b&local_base=kub01) 就已经停用了。因此，本库将不再更新。
